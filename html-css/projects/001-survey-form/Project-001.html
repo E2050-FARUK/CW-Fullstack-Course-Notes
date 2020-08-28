@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-001:Survey Form</title>
+    <link rel="stylesheet" href="Project-001.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div id="container">
+        <h1 id="title">Net<span id="flix">Flix</span> </h1>
+        <p>Thank you for signing up at Netflix. Tell us more about yourself</p>
+        <form action="http://www.netflix.com/action_page.php" id="survey-form">
+        Name<br><br>
+        <input class="box" type="text" name="name" placeholder="Enter your name"><br><br>
+        Age<br><br>
+        <input class="box" type="number" name="age" placeholder="Age"><br><br>
+        Email<br><br>
+        <input class="box" type="email" name="email" id="email" placeholder="Enter your email"><br><br>
+        Content Type<br><br>
+        <select class="box" name="content-type">
+            <option value="Series" selected>Series</option>
+            <option value="Movies">Movies</option>
+            <option value="TV Shows">TV shows</option>
+            <option value="Documentaries">Documentaries</option>
+            </select><br><br>
+        Movie Type<br>
+        <input type="checkbox" name="movie type" value="Comedy">Comedy<br>
+        <input type="checkbox" name="movie type" value="Action">Action<br>
+        <input type="checkbox" name="movie type" value="Romance" checked>Romance<br><br>
+        Gender<br>
+        <input type="radio" name="gender" value="male">Male<br>
+        <input type="radio" name="gender" value="female">Female<br>
+        <input type="radio" name="gender" value="other">Other<br><br>
+        Feedback<br><br>
+        <textarea name="feedback" cols="50" rows="7" placeholder="Any comment"></textarea><br><br>
+        <!-- Submit -->
+        <input type="submit" value="Submit" id="submit">
+
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <br />
+    <form action="result.html" name="myfirstform" method="">
+      <label> Username: <input type="text" name="username" placeholder="username"> </label>
+      <br /><br />
+      <label for="surname">Surname: </label>
+      <input type="text" name="surname" id="surname" placeholder="surname">
+      <br /><br />
+      <div>
+        <label>Password: <input type="password" name="password" /> </label>
+      </div>
+      <br /><br />
+      
+      <div>
+          <label>Male: <input type="radio" name="gender" value="male" checked> </label>
+          <label>Female: <input type="radio" name="gender" value="female" > </label>
+      </div><br>
+
+      <div>
+          <label><input type="checkbox" name="araç-1" value="bisiklet">Bisiklet</label>
+          <label><input type="checkbox" name="araç-2" value="araba">Araba</label>
+          <label><input type="checkbox" name="araç-3" value="tekne" checked>Tekne</label>
+      </div><br>
+
+      <div>
+          <label>Age <input type="number" name="age" step="2" min="0" max="18"> </label>
+      </div><br>
+      <div>
+          <label>Search Google <input type="search" name="sgoogle" id="sgoogle"> </label>
+      </div><br>
+      <div>
+          <label>Select your favorite color <input type="color" name="favcolor" id="favcolor"> </label>
+      </div><br>
+      <div>
+        <label>enter your phone number <input type="tel" name="phone-number" id="phone-number" pattern="[0-9]{10}"> </label>
+      </div>
+
+      <input type="reset" value="Sıfırla">
+      <input type="submit" value="Send Data" /><br /><br />
+    </form>
+  </body>
+</html>
