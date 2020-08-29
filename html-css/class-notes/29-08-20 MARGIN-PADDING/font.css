@@ -1,0 +1,22 @@
+#fonts1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+#fonts2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#fonts3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+}
+
+#fonts4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#fonts5 {
+    font-family: 'Dancing Script', cursive;
+}

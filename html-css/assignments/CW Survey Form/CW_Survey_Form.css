@@ -1,0 +1,14 @@
+#container {
+    margin: auto;
+    width: 40%;
+}
+
+#title {
+    font-size: 2.5em;
+}
+
+textarea {
+    overflow-y: scroll;
+        
+}
+

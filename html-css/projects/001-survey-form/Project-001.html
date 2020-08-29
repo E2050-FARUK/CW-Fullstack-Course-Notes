@@ -11,16 +11,16 @@
 <body>
     <div id="container">
         <h1 id="title">Net<span id="flix">Flix</span> </h1>
-        <p>Thank you for signing up at Netflix. Tell us more about yourself</p>
+        <p id="description">Thank you for signing up at Netflix. Tell us more about yourself</p>
         <form action="http://www.netflix.com/action_page.php" id="survey-form">
-        Name<br><br>
-        <input class="box" type="text" name="name" placeholder="Enter your name"><br><br>
-        Age<br><br>
-        <input class="box" type="number" name="age" placeholder="Age"><br><br>
-        Email<br><br>
+        <label for="name"> Name</label><br><br>
+        <input id="name" class="box" type="text" name="name" placeholder="Enter your name"><br><br>
+        <label for="age"> Age</label><br><br>
+        <input id="age" class="box" type="number" name="age" placeholder="Age"><br><br>
+        <label for="email"> Email</label><br><br>
         <input class="box" type="email" name="email" id="email" placeholder="Enter your email"><br><br>
-        Content Type<br><br>
-        <select class="box" name="content-type">
+        <label for="ctype"> Content Type</label><br><br>
+        <select id="ctype" class="box" name="content-type">
             <option value="Series" selected>Series</option>
             <option value="Movies">Movies</option>
             <option value="TV Shows">TV shows</option>
@@ -34,8 +34,8 @@
         <input type="radio" name="gender" value="male">Male<br>
         <input type="radio" name="gender" value="female">Female<br>
         <input type="radio" name="gender" value="other">Other<br><br>
-        Feedback<br><br>
-        <textarea name="feedback" cols="50" rows="7" placeholder="Any comment"></textarea><br><br>
+        <label for="fback"> Feedback</label><br><br>
+        <textarea id="fback" name="feedback" cols="50" rows="7" placeholder="Any comment"></textarea><br><br>
         <!-- Submit -->
         <input type="submit" value="Submit" id="submit">
 

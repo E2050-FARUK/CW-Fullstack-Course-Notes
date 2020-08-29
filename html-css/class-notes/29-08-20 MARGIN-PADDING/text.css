@@ -1,0 +1,28 @@
+#texts1 {
+    color: yellow;
+    text-align: left;
+    text-decoration: overline underline solid;
+    text-indent: 8px;
+}
+
+#texts2 {
+    color: blue;
+    text-align: right;
+    text-decoration: overline underline wavy;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+
+#texts3 {
+    color: rgba(9, 12, 159, 0.8);
+    text-align: justify;
+    text-decoration: line-through;
+    text-decoration-color: black ;
+}
+
+#texts4 {
+    color: hsla(120, 60%, 70%, 0.8);
+    text-align: center;
+}
+
+
