@@ -9,6 +9,10 @@
 
 textarea {
     overflow-y: scroll;
+    float: left;
         
 }
 
+#submit {
+    margin-top: 3.3rem;
+}

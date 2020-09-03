@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#div-1 {
+    display: inline-block;
+    background-color: #ff0000;
+    height: 200px;
+    width: 100%;
+}
+
+#span-1 {
+    visibility: hidden;
+    background-color: #00ff00;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+#span-2 {
+    background-color: #0000ff;
+}
+
+#div-2 {
+    background-color: darkviolet;
+}
+
+img {
+    height: 200px;
+    width: 250px;
+}

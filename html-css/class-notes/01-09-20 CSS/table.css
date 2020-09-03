@@ -1,0 +1,34 @@
+table, th, td {
+    border: 1px solid #000000;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th {
+    height: 30px;
+    vertical-align: text-top;
+    padding: 15px;
+    background-color: purple;
+}
+
+caption {
+    caption-side: bottom;
+    text-align: left;
+}
+
+td {
+    text-align: center;
+    /* background-color: paleturquoise; */
+}
+
+tr:hover {
+    background-color: cornflowerblue;
+}
+
+tr:nth-child(even) {
+    background-color: rosybrown;
+}
