@@ -1,0 +1,20 @@
+h1 {
+    font-size: 30px;
+    background-color: burlywood;
+}
+
+@media screen and (max-width:768px){
+    h1 {
+        font-size: 16px;
+        background-color: yellow;
+        color: red;
+    }
+}
+
+@media screen and (max-width:400px){
+    h1 {
+        font-size: 12px;
+        background-color: crimson;
+        color: blue;
+    }
+}
