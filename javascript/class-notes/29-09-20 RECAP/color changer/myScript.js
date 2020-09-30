@@ -48,7 +48,10 @@ function setColors() {
         motto : colorData[1],
     };
 
-   
+    // if(userInput.value == "") {
+    //   alert("Please enter color name and description!");
+    // }
+
     const searchedColorIndex = colors.findIndex(
         (myColor) => myColor.name === colorObject.name
     );
